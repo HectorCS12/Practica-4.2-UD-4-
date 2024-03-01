@@ -22,7 +22,7 @@ public class Calculadora {
         System.out.println("La suma de a y b es: " + restar(a, b));
         System.out.println("La multiplicacion de a y b es: " + multiplicar(a, b));
         System.out.println("La división de a entre b es: " + division(a, b));
-
+        System.out.println("El area del triangulo es: " + areatriangulo(a, b));
     }
 
     public static int sumar(int a, int b) {
@@ -40,5 +40,7 @@ public class Calculadora {
     public static double division(int a, int b){
         return a / b;
     }
-
+    public static int areatriangulo(int a, int b) {
+        return (a * b)/2;
+    }
 }
