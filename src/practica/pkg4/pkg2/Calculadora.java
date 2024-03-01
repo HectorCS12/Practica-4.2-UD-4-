@@ -20,6 +20,7 @@ public class Calculadora {
 
         System.out.println("La suma de a y b es: " + sumar(a, b));
         System.out.println("La multiplicacion de a y b es: " + multiplicar(a, b));
+        System.out.println("La división de a entre b es: " + division(a, b));
 
     }
 
@@ -29,6 +30,10 @@ public class Calculadora {
 
     public static int multiplicar(int a, int b) {
         return a * b;
+    }
+    
+    public static double division(int a, int b){
+        return a / b;
     }
 
 }
